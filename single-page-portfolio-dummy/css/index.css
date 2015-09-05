@@ -1,0 +1,373 @@
+* {
+    margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;
+}
+
+*:focus {outline:none;}
+
+#wrap {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:300%;
+  height:100%;
+}
+
+.box {
+  width:33.33%;
+  height:50%;
+  float:left;
+  background-color: #333;
+}
+
+#home    {
+    background-color: #e74c3c;
+}
+
+#identity   {
+    background-color: #f1c40f;
+}
+
+#photos       {
+    background-color: #EE9A10;
+}
+
+#about     {
+    background-color: #e67e22;
+}
+
+#skills     {
+    background-color: #2980b9;
+}
+
+#contact   {
+    background-color: #2c3e50;
+}
+
+
+ul#nav {
+    width:100%;
+    height:100px;
+    background:#000;
+    position:fixed;
+    opacity: 0.5;
+    text-align: center;
+}
+
+ul#nav li {
+ display:inline-block;
+}
+
+ul#nav li a {
+ font:18px dejavu sans;
+ text-decoration:none;
+ color:white;
+ opacity: 1;
+ display:block;   
+ padding:37px 36px;
+}
+
+ul#nav li a:hover, ul#nav li a.active {
+    padding-top: 42px;
+    background-color: #2c3e50;
+}
+
+img#me {
+    width: 220px;
+    height: 240px;
+}
+
+div#intro {
+    text-align: center;
+}
+
+div#quote {
+    float: left;
+    color: white;
+    margin-left: 24px;
+    border: 2px solid white;
+    padding: 16px;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact h3 {
+    color: white;
+    font-family: Gothic Uralic;
+    font-size: 2em;
+}
+
+#contact h4 {
+    color: white;
+}
+
+#contact p {
+    color: white;
+    font-family: dejavu sans, sans-serif, fantasy;
+}
+
+#contact ul.socials {
+    list-style: none;
+}
+
+#contact ul.socials li {
+    display: inline-block;
+    margin: 0px 24px;
+}
+
+#contact ul.socials li img {
+    background-color: transparent;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+/*#contact ul.socials li img:hover {
+    background-color: white;
+}*/
+
+#contact ul.socials li#fb img:hover {
+    background-color: #44619D;
+}
+
+#contact ul.socials li#twit img:hover {
+    background-color: #55ACEE;
+}
+
+#contact ul.socials li#gmail img:hover {
+    background-color: #d14836;
+}
+
+#contact ul.socials li#github img:hover {
+    background-color: white;
+}
+
+#skills p {
+    color: white;
+    font-family: dejavu sans;
+    font-size: 1.5em;
+    padding: 12px;
+    text-align: center;
+}
+
+#skills ul.percentage {
+    list-style: none;
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#skills ul.percentage li {
+    display: inline;
+    padding: 0px 24px;
+    color: white;
+    font-family: dejavu sans;
+    border-right: 2px solid white;
+}
+
+ul.skill-name {
+    list-style: none;
+}
+
+ul.skill-name li {
+    display: block;
+    text-align: right;
+    padding: 16px 24px;
+    background-color: #e74c3c;
+    transition: all 0.8s ease;
+    margin-bottom: 6px;
+    color: white;
+    font-family: dejavu sans;
+    width: 120px;
+}
+
+ul.skill-name li#satu:hover {
+    padding-left: 900px ;
+    cursor: pointer;
+}
+
+ul.skill-name li#dua:hover {
+    padding-left:500px;
+    cursor: pointer;
+}
+
+ul.skill-name li#tiga:hover {
+    padding-left:600px;
+    cursor: pointer;
+}
+
+ul.skill-name li#empat:hover {
+    padding-left:490px;
+    cursor: pointer;
+}
+
+ul.skill-name li#lima:hover {
+    padding-left:900px;
+    cursor: pointer;
+}
+
+ul.skill-name li#enam:hover {
+    padding-left:800px;
+    cursor: pointer;
+}
+
+ul.skill-name li#tujuh:hover {
+    padding-left:400px;
+    cursor: pointer;
+}
+
+ul.skill-name li#delapan:hover {
+    padding-left:920px;
+    cursor: pointer;
+}
+
+#identity ul {
+    list-style: none;
+}
+
+#identity ul li.required {
+    display: inline-block;
+    color: white;
+    background-color: #e74c3c;
+    font-family: dejavu sans;
+    padding: 28px;
+    margin-top: 6px;
+    border:2px solid white;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#identity ul li.required p {
+    padding:24px 12px;
+    text-align: center;
+}
+
+#identity h3 {
+    color: white;
+    text-align: center;
+    font-family: dejavu sans;
+}
+
+#about {
+    text-align: center;
+}
+
+#about h2 {
+    font-family: dejavu sans;
+    color: white;
+}
+
+#about img {
+    height: 220px;
+    width: 210px;
+}
+
+img#kanan, img#kiri, img#atas , img#bawah {
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+img#bawah {
+    margin-bottom: 24px;
+}
+
+img#atas {
+    margin-top: 24px;
+}
+
+div.border {
+    border: 2px solid white;
+}
+
+a#check {
+    text-decoration: none;
+    padding: 24px 42px;
+    font-size: 1.5rem;
+    font-family: dejavu sans;
+    color: white;
+    float: right;
+    background-color: transparent;
+    border: 5px solid white;
+    transition: all 0.5 ease;
+}
+
+a#check:hover {
+    background-color: white;
+    color: #e74c3c;
+}
+
+.bubble-right{
+display:inline-block;
+position:relative;
+-webkit-transform:translateZ(0);
+-ms-transform:translateZ(0);
+transform:translateZ(0);
+box-shadow:0 0 1px rgba(0,0,0,0)
+}
+
+.bubble-right:before{
+pointer-events:none;
+position:absolute;
+z-index:-1;
+content:'';
+border-style:solid;
+-webkit-transition-duration:.3s;
+transition-duration:.3s;
+-webkit-transition-property:right;
+transition-property:right;
+top:-webkit-calc(50% - 10px);
+top:calc(50% - 10px);
+right:0;
+border-width:10px 0 10px 10px;
+border-color:transparent transparent transparent #e74c3c;
+}
+
+.bubble-right:hover:before{
+right:-10px;
+}
+
+
+.tooltip {
+    display: none;
+    transition: 0.3 all ease;
+    transfrom: scale3d(0,0,0);
+}
+
+.required:hover {
+    padding-top: 26px;
+}
+
+.required:hover .tooltip {
+    position: absolute;
+    display: block;  
+    margin: -80px 0px 10px 100px;
+    float: right;
+    color: #FFFFFF;
+    padding: 7px 10px;
+    background: black;
+}
+
+.tooltip1 {
+    display: none;
+    transition: 0.3 all ease;
+    transfrom: scale3d(0,0,0);
+}
+
+.required1:hover .tooltip1 {
+    position: absolute;
+    display: block;  
+    margin: -90px 0px 10px 50px;
+    float: right;
+    color: #FFFFFF;
+    padding: 7px 10px;
+    width: 400px;
+    height: 400px;
+}
+
+.required1 img {
+    height: 64px;
+    width: 48px;
+}
